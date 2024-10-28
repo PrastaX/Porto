@@ -1,0 +1,227 @@
+body {
+  width: 100vw;
+  height: 999999px;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  color: white;
+}
+
+.io {
+ font-family: "Montserrat", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: 900;
+  font-style: italic;
+  position: absolute;
+  top: 190px;
+  left: 40%;
+  
+}
+
+#pp, #saya{
+  color: white;
+}
+h4 {
+ font-family: "Montserrat", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: 900;
+  font-style: italic;
+  position: absolute;
+  top: 190px;
+  left: 5%;
+  
+}
+
+.highlight{
+  color: #d54e4e;
+}
+
+.Navigasi {position: absolute;
+    top: 7px;
+    left: 33%;
+    width: 15vw; /* Buat navbar selebar layar */
+    display: flex;
+    justify-content: center; /* Pusatkan navbar secara horizontal */
+    padding: 0px;
+
+}
+
+.ul-navbar {
+  display: flex;
+  justify-content: space-between; /* Buat jarak antar elemen secara merata */
+  list-style-type: none;
+  width: 90%; /* Buat ul selebar 90% dari layar, agar ada margin di kiri dan kanan */
+  margin: 0;
+  padding: 0;
+  gap: 20px; /* Jarak antar elemen akan menyesuaikan 2% dari lebar layar */
+}
+
+.li-navbar {
+  width: auto; /* Atur width otomatis */
+  padding: 10px; /* Tambahkan padding untuk meningkatkan area klik */
+  color: black;
+  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  transition: all 0.3s ease 0.2s; /* Menambahkan delay 0.2 detik */
+  flex-grow: 1; /* Biarkan elemen tumbuh untuk mengisi ruang yang tersedia */
+  text-align: center; /* Agar teks di dalam elemen navbar berada di tengah */
+  font-size: 15px;
+  
+  position: relative; /* Tambahkan ini untuk positioning garis */
+}
+
+.li-navbar:hover {
+  background-color: #d12929;
+  border-radius: 10px;
+  transform: translateY(-5px) scale(1.1); /* Naik sedikit dan membesar */
+}
+
+.a-navbar {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;;
+  text-decoration: none;
+  color: white;
+  padding: 5px 0; /* Tambahkan padding untuk memberikan ruang pada garis */
+}
+
+/* CSS untuk garis bawah pada section aktif */
+
+.container {
+  display: flex;
+  overflow: hidden;
+  justify-content: flex-end; /* Mengatur agar gambar berada di kanan */
+}
+
+.warna {
+  color: #d54e4e;
+}
+
+.gambar {
+  border-radius: 50%;
+  z-index: -1;
+  position: absolute;
+  top: 29%;
+  max-width: 50vw; /* Batas maksimal lebar gambar */
+  width: 100%; /* Pastikan lebar mengikuti ukuran container */
+  height: 100%; /* Agar tinggi gambar menyesuaikan lebar */
+  max-height: 50vw;
+  object-fit: contain; /* Memastikan gambar tetap proporsional */
+  
+  transform: translateX(100%); /* Posisi awal di luar layar, di kanan */
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+h3 {
+  color: white;
+  position: absolute; /* Ubah ke 'relative' */
+  top: 165px; /* Jarak dari atas */
+  left: 5vw; /* Posisikan di kiri */
+  text-align: left; /* Pusatkan teks ke kiri */
+}
+
+.animate__animated.animate__lightSpeedInLeft {
+  --animate-duration: 2s;
+}
+
+.animate__animated .animate__slideInDown {
+  animation-duration: 8s; /* Durasi animasi menjadi 3 detik */
+}
+
+.jir {
+    display: flex; /* Mengatur kontainer sebagai flexbox */
+    justify-content: space-evenly; /* Menjajarkan gambar secara horizontal */
+    align-items: center; /* Memusatkan gambar secara vertikal dalam kontainer */
+    position: relative; /* Kontainer relatif untuk mengatur posisi gambar */
+    height: 300px; /* Tinggi kontainer, sesuaikan sesuai kebutuhan */
+    margin-top: 460px;
+}
+
+.hover-image {
+    filter: grayscale(100%); /* Mengubah gambar menjadi hitam putih */
+    transition: filter 0.5s ease; /* Menambahkan efek transisi */
+    width: 25%; /* Lebar gambar */
+    height: auto; /* Tinggi otomatis */
+    border-radius: 15px; /* Sudut melengkung */
+}
+
+/* Efek hover untuk gambar secara terpisah */
+.hover-image:hover {
+    filter: grayscale(0%); /* Mengembalikan gambar ke warna saat dihover */
+}
+
+.p {
+  font-family: "Raleway", sans-serif; font-weight: 700; 
+  position: absolute;
+  top: 205px; /* Sesuaikan jika perlu */
+  margin-top: 10px; /* Tambahkan margin untuk jarak dari H5 */
+  width: 90%; /* Atur lebar paragraf sesuai kebutuhan */
+  left: 5vw; /* Posisikan di kiri */
+  font-size: 14px; /* Ukuran teks menyesuaikan layar */
+}
+
+.hu {
+  position: absolute;
+  top: 85%;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.hi {
+  position: absolute;
+  top: 93%;
+  left: 20%;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px; /* Sesuaikan ukuran sesuai kebutuhan */
+}
+
+.u {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  position: absolute;
+  top: 15px;
+}
+
+.gatau{
+  display: flex;
+  justify-content: center;
+}
+
+.ii {
+  font-family: 'Roboto Slab', serif;
+  position: absolute;
+  top: 63%;
+  color: white;
+}
+
+.iconn{
+  display: flex; /* Mengatur kontainer sebagai flexbox */
+    justify-content: space-evenly; /* Menjajarkan gambar secara horizontal */
+    align-items: center; /* Memusatkan gambar secara vertikal dalam kontainer */
+    position: absolute; /* Kontainer relatif untuk mengatur posisi gambar */
+    margin-top: 700px;
+    height: auto;
+    width: auto;
+    border: 1px solid red;
+  
+}
+
+.bi-github,
+.bi-instagram,
+.bi-tiktok {
+    font-size: 42px;
+    padding: 30px;
+    transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  transition: all 0.3s ease 0.2s; /* Menambahkan delay 0.2 detik */
+  color: white;
+}
+
+.bi-github:hover,
+.bi-instagram:hover,
+.bi-tiktok:hover {
+    color: #d12929; /* Mengubah warna menjadi merah */
+  transform: translateY(-5px) scale(1.1); /* Naik sedikit dan membesar */
+}

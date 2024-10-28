@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portofolio</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body class="bg-dark ">
+
+    <div class="Navigasi animate__animated animate__slideInDown">
+        <ul class="ul-navbar">
+            <li class="li-navbar">
+                <a href="Portofolio.html" class="a-navbar">Beranda</a>
+            </li>
+            <li class="li-navbar">
+                <a href="Tentang.html" class="a-navbar">Tentang</a>
+            </li>
+            <li class="li-navbar">
+                <a href="Projek.html" class="a-navbar">Projek</a>
+            </li>
+        </ul>
+    </div>
+
+    <h2 class="u animate__animated animate__lightSpeedInLeft">
+        <span style="color: #d54e4e;">Ber</span><span style="color: white;">anda</span>
+    </h2>
+
+    <h4 class="animate__animated animate__lightSpeedInLeft" id="saya">
+    </h4>
+
+    <p class="p" id="pp" data-aos="zoom-out-right" data-aos-duration="2000"></p>
+
+    <div class="container">
+        <img src="—Pngtree—programmer clipart developer sitting behind_11075227.png" alt="Gambar" class="gambar" data-aos="zoom-in-right" data-aos-duration="2000">
+    </div>
+
+     <div class="gatau">
+      <h5 class="ii" data-aos="fade-right" data-aos-duration="2000">Keterampilan yang Saya Kuasai</h5>
+      
+
+
+<div class="jir">
+  <img src="image.jpeg" 
+  alt="Gambar 1" 
+  class="hover-image gambar-pertama" 
+  data-aos="zoom-out-left">
+<img src="IMG_20241017_091050.jpg" 
+alt="Gambar 2" 
+class="hover-image gambar-kedua" 
+data-aos="zoom-out-up">
+<img src="download.png" 
+alt="Gambar 3" 
+class="hover-image gambar-ketiga" 
+data-aos="zoom-out-right">
+
+    </div>
+    
+    <div class="iconn">
+    <a href="https://www.instagram.com/your_username" target="_blank" class="icon-instagram">
+    <i class="bi bi-instagram"></i>
+</a>
+<a href="https://github.com/your_username" target="_blank" class="icon-github">
+    <i class="bi bi-github"></i>
+</a>
+<a href="https://www.tiktok.com/@your_username" target="_blank" class="icon-tiktok">
+    <i class="bi bi-tiktok"></i>
+</a>
+</div>
+
+
+<!--     <footer class="hu">
+    <p id="typewriter"></p>
+</footer>
+<p class="hi">&copy; 2024 Prasta. All rights reserved.</p>        
+<!-- new TypeIt("#typewriter", {
+            strings: ["Design is not just what it looks like and feels like. Design is how it works."],
+            speed: 20,
+            loop: false,
+        }).go(); -->
+        
+
+
+    <script src="Portofolio.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 2300, // durasi animasi
+        once: true, // mengatur agar animasi dapat muncul kembali saat scroll
+        mirror: true, // membuat animasi muncul saat elemen kembali ke viewport
+    });
+</script>
+
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script>
+
+
+        new TypeIt("#pp", {
+            strings: 
+            ["Sebagai seorang pemula,<br>    saya memiliki motivasi kuat<br> untuk terus belajar serta<br> beradaptasi dengan setiap<br> tantangan yang ada di dunia<br> coding. Saya percaya bahwa<br> dengan dedikasi yang tinggi<br> serta kemauan untuk terus<br> berkembang, saya dapat<br> memberikan kontribusi<br>      yang berarti dalam setiap<br> proyek yang saya kerjakan<br> dengan penuh semangat."],
+            speed: 3,
+            loop: false,
+        }).go();
+    </script>
+    
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <script>
+        var element = document.getElementById('saya');
+
+        var typewriter = new Typewriter(element, {
+            loop: true,  // untuk mengulang teks
+            delay: 65    // kecepatan ketik
+        });
+
+        typewriter
+            .typeString('Hai! Saya <span class="highlight">Prasta</span>')
+            .pauseFor(2000)
+            .deleteAll()
+            .typeString('Selamat <span class="highlight">Datang</span>')
+            .pauseFor(2000)
+            .deleteAll()
+            .start();
+    </script>
+</body>
+</html>
